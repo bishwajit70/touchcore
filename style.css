@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Charis SIL', serif;
+}
+
+.main-sections {
+    display: flex;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.main-area {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    height: 100vh;
+    order: 2;
+}
+
+.menu-area {
+    width: 5%;
+    order: 1;
+    background-color: rgb(248, 247, 247);
+    padding: 0px 10px;
+    height: 100vh;
+
+}
+
+.menu-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu-top a {
+    margin-bottom: 15px;
+}
+
+.dashboard-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    align-items: center;
+}
+
+
+.main-menu {
+    margin-top: 15px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    padding: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-footer a {
+    padding: 10px 0px;
+}
+
+/* ===== profile area css ====  */
+
+.profile-area {
+    width: 25%;
+    background-color: rgb(221 221 221 / 15%);
+    padding: 0px 40px;
+    height: 100%;
+    box-shadow: 1px 2px 13px 1px rgb(223, 221, 221);
+}
+
+.profile-top {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.profile-image {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.profile-center h4 {
+    padding-bottom: 10px;
+}
+
+.profile-center p {
+    padding-bottom: 5px;
+}
+
+.profile-center select {
+    border: none;
+    padding: 15px 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(55, 38, 144);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.profile-bottom h3 {
+    margin-bottom: 15px;
+}
+
+.profile-bottom h4 {
+    margin-bottom: 20px;
+}
+
+
+/* =======Retirement Area CSS==========  */
+.retirement-area {
+    width: 40%;
+    /* background-color: rgb(241, 209, 243); */
+    padding: 0px 10;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    clear: both;
+}
+
+.retirement-top {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.goal-achieve-income {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.peers-area {
+    margin-top: 30px;
+}
+
+.single-area {
+    margin-right: 10px;
+    width: 30%;
+    border-bottom: 2px solid #666;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.single-area h3 {
+    font-size: 20px;
+}
+
+.single-area p {
+    font-size: 12px;
+}
+
+/* =======Retirement strategy area CSS==========  */
+.retirement-strategy-area {
+    width: 25%;
+    background-color: rgb(240, 255, 251);
+    /* background-color: rgb(217, 243, 209); */
+    height: 100%;
+    padding-left: 15px;
+    box-shadow: 1px 2px 13px 1px rgb(223, 221, 221);
+
+}
+
+.retirement-strategy-top {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.retirement-middle {
+    padding-left: 30px;
+}
+
+.retirement-middle button {
+    width: 65%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    background-color: rgb(55, 38, 144);
+    color: #ddd;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+
+.single-employer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-right: 30px;
+    margin: 10px 0;
+}
+
+
+.consider-area {
+    border-left: 2px solid #000;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+/* range slider css  */
+
+.range-slider {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.range-slider input {
+    margin-right: 10px;
+}
+
+#rangeValue {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+}
+
+.range {
+    width: 75%;
+    background: #ddd;
+    outline: none;
+    border-radius: 150px;
+    border: 1px solid #000;
+
+}
+
+.range::-webkit-slider-thumb {
+    border-radius: 100%;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* circle progress bar css */
+
+.age-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.options h6 {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.single-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 5px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+}
+
+.single-option span {
+    width: 50px;
+}
+
+.single-option select {
+    width: 100px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.progressbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.single-progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes growProgressBar {
+
+    0%,
+    33% {
+        --pgPercentage: 0;
+    }
+
+    100% {
+        --pgPercentage: var(--value);
+    }
+}
+
+;
+
+@property --pgPercentage {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 0;
+}
+
+div[role="progressbar"] {
+    --size: 6rem;
+    --fg: rgb(29, 182, 80);
+    --bg: #def;
+    --text: #000;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background:
+        radial-gradient(closest-side, white 80%, transparent 0 99.9%, white 0),
+        conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--text);
+}
+
+div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+}
+
+
+/* bar chart css */
+.columns {
+    display: flex;
+    height: 30vh;
+    max-height: 400px;
+    align-items: stretch;
+    max-width: 600px;
+    /* border: 1px solid #CCC; */
+}
+
+.column-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+
+}
+
+.column-bar {
+    /* border-right: 1px solid white; */
+    width: 40px
+}
+
+.series-a {
+    background: rgb(55, 38, 144);
+}
+
+.series-b {
+    background: rgb(81, 57, 200);
+}
+
+.series-c {
+    background: rgb(135, 117, 225);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive css */
+
+
+@media only screen and (max-width: 600px) {
+    .main-area {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+    }
+
+    .menu-area {
+        display: none;
+    }
+
+
+    .main-area section {
+        width: 100%;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .age-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options {
+        width: 100%;
+    }
+
+    .progressbar {
+        width: 100%;
+    }
+
+    div[role="progressbar"] {
+        --size: 5rem;
+
+    }
+}
